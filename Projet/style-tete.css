@@ -1,0 +1,99 @@
+header {
+	background-color: #0B173B;
+	margin-top: 0px;
+	width: 100%;
+    height: 200px;
+    display: block;
+}
+
+#titre {
+	text-align: center;
+	padding-top: 40px;
+}
+
+#sport {
+	color: white;
+	font-style: italic;
+}
+
+#direct {
+	color: #FF0000;	
+}
+
+#site-navigation {
+	margin-top: 65px;
+	width: 100%;
+	height: 35px;
+	background-image:linear-gradient(90deg, #084B8A, #58FAF4);
+}
+
+#bouton-navigation li {
+	display: inline;
+}
+
+#bouton-home {
+	background-color: white;
+	margin-left: 100px;
+	padding: 12px 8px 4px 8px;
+	border-right: 2px solid black;
+	border-left: 2px solid black;
+}
+
+#bouton-home:hover {
+	opacity: 0.7;
+}
+
+#bouton {
+	padding: 7px 10px 2px 10px;
+	text-decoration: none;
+	color: white;
+	margin: 0px;
+	font-size: 1.3em;
+	border-right: 1px solid #424242;
+}
+
+#bouton:hover {
+	border-bottom: 4px solid #01DF01;
+}
+
+ #inscrire {
+ 	float: right;
+	padding: 7px 10px 3px 10px;
+	text-decoration: none;
+	color: black;
+	margin: 0px;
+	font-size: 1.3em;
+	background-image:linear-gradient(180deg, #D8D8D8, #6E6E6E);
+ }
+
+ #connecte {
+ 	float: right;
+	padding: 7px 10px 3px 10px;
+	text-decoration: none;
+	color: black;
+	margin: 0px;
+	font-size: 1.3em;
+	border-right: 1px solid #424242;
+	background-image:linear-gradient(180deg, #D8D8D8, #6E6E6E);
+ }
+
+ #inscrire:hover, #connecte:hover {
+	border-bottom: 4px solid #FF0000;
+}
+
+#pseudo {
+	float: right;
+	padding: 7px 10px 3px 10px;
+	font-size: 1.2em;
+	color: black;
+}
+
+#deconnecte {
+	float: right;
+	padding: 7px 10px 6px 10px;
+	text-decoration: none;
+	color: white;
+	margin: 0px;
+	font-size: 1.1em;
+	background-image:linear-gradient(180deg, #A4A4A4, black);
+}

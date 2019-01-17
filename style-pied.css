@@ -1,0 +1,46 @@
+footer {
+	background-color: #2E2E2E;
+	height: 250px;
+}
+
+#bottom {
+	width: 840px;
+	margin: auto;
+	height: 200px;
+	border-bottom: 2px solid #848484;
+}
+
+#divers, #nous-contacter, #suivez-nous {
+	display: inline;
+	margin: 0px;
+	width: 33%;
+	float: left;
+}
+
+#divers li, #nous-contacter li {
+	list-style: none;
+}
+
+#suivez-nous li {
+	display: inline;
+}
+
+#bottom h3 {
+	margin-left: 20px;
+	color: #045FB4;
+}
+
+#nous-contacter p {
+	display: inline;
+	font-size: small;
+	color: #3ADF00;
+	font-style: italic;
+}
+
+#copiright {
+	float: left;
+	margin-top: 15px;
+	margin-left: 100px;
+	color: white;
+	font-size: 0.9em;
+}

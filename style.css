@@ -1,0 +1,112 @@
+body {
+	background-image: url("image/adidas.jpeg");
+	background-attachment: fixed;
+	margin: 0px;
+}
+
+#contenu {
+	background-color: white;
+	margin-left: 15%;
+    margin-right: 15%;
+    margin-bottom: 50px;
+}
+
+#texte {
+	margin-top: 50px;
+	margin-left: 5%;
+	margin-right: 5%;
+	padding-top: 30px;
+	padding-bottom: 20px;
+}
+
+#message {
+	margin-top: 30px;
+	padding-bottom: 1px;
+}
+
+#commentaire {
+	margin: 40px;
+	background-color: #E6E6E6;
+	padding-bottom: 40px;
+	padding-left: 20px;
+	padding-right: 20px;
+	border: 1px solid #BDBDBD;
+}
+
+#lien-com {
+	text-decoration: none;
+	color: #4D9CEB;
+}
+
+#lien-com:hover {
+	border-bottom: 1px solid #4D9CEB;
+}
+
+#pseudo-com {
+	color: #06C;
+	font-size: 0.9em;
+	font-weight: bold;
+}
+
+input[type="submit"] {
+	display: block;
+	margin-top: 10px;
+	background-image: linear-gradient(180deg, #4D9CEB, #06C);
+	border: 1px solid #1C75CD;
+	color: white;
+	padding: 7px 15px 7px 15px;
+}
+
+input[type="submit"]:hover {
+	background:#06C;
+}
+
+#com_erreur {
+	color: red;
+	font-size: 0.9em;
+}
+
+textarea {
+	border: 1px solid grey;
+	border-radius: 2px;
+}
+
+textarea:focus {
+	border-color: #01DF01;
+}
+
+#com {
+	width: 80%;
+	margin-top: 40px;
+	margin-left: 10%;
+	margin-right: 10%;
+	border-bottom: 1px solid grey;
+	padding-bottom: 20px;
+}
+
+#com_top {
+	display: inline-block;
+	background-color: #6E6E6E;
+	color: #E6E6E6;
+	width: 100%;
+	padding: 5px 7px 5px 7px;
+	border: 2px solid #424242;
+}
+
+#nom {
+	width: 50%;
+	float: left;
+	font-weight: bold;
+}
+
+#date {
+	width: 50%;
+	float: right;
+}
+
+#comm {
+	width: 88%;
+	margin-top: 10px;
+	margin-left: 2%;
+	margin-right: 2%;
+}
